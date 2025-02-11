@@ -1,0 +1,57 @@
+.container{
+    border: 1px solid red;
+    width: 85vw;
+}
+.header{
+    padding: 10px;
+    display: flex;
+    border: 1px solid green;
+}
+.heading{
+    flex: 1;
+}
+.menu{
+    flex: 2;
+}
+.menu span{
+    margin-left: 20px;
+}
+.content{
+    display: inline-flex;
+}
+.plogo{
+    flex: 1;
+}
+.pdetails{
+    flex: 2;
+    margin-left: 50px;
+}
+.footer{
+    border: 1px solid red;
+}
+.slogo{
+    padding: 10px;
+    text-align: right;
+    margin-right: 50px;
+}
+.slogo i{
+    margin-left: 20px;
+}
+@media (max-width:800px){
+    .menu{
+        display: none;
+   }
+    .content{
+        display: block;
+   }
+    .pdetails{
+        margin-left: 0px;
+   }
+    .pother{
+        display: none;
+   }
+    .slogo{
+        text-align: center;
+        margin-right: 0px;
+   }
+}
