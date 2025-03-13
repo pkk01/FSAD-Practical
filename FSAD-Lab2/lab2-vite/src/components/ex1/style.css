@@ -1,6 +1,7 @@
 .container{
     border: 1px solid red;
-    width: 85vw;
+    width: 80vw;
+    justify-content: center;
 }
 .header{
     padding: 10px;
