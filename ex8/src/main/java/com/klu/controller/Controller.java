@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.klu.model.User;
+import com.klu.model.Product;
 import com.klu.service.ProdService;
 
 @RestController
@@ -25,13 +25,13 @@ public class Controller {
 
 	// ---- Create ----
 	@PostMapping("/product")
-	public String addItem(@RequestBody User product) {
+	public String addItem(@RequestBody Product product) {
 		return service.insertData(product);
 	}
 
 	// ---- Update ----
 	@PutMapping("/product")
-	public String updateItem(@RequestBody User product) {
+	public String updateItem(@RequestBody Product product) {
 		return service.updateData(product);
 	}
 	
@@ -43,7 +43,7 @@ public class Controller {
 	
 	// --- Read ----
 	@GetMapping("/product")
-	public List<User> retrieveProduct() {
+	public List<Product> retrieveProduct() {
 		return service.retrieveData();
 	}
 }
