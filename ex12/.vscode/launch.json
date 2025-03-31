@@ -1,0 +1,44 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-Ex12MsClient1Application<com.klu-EX12-MS-Client-1>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.klu.Ex12MsClient1Application",
+      "projectName": "com.klu-EX12-MS-Client-1",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-Ex12MsLoadBalancerApplication<com.klu-ex12_MS-LoadBalancer>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.klu.Ex12MsLoadBalancerApplication",
+      "projectName": "com.klu-ex12_MS-LoadBalancer",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-Ex12MsServerApplication<com.klu-ex12_MS-Server>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.klu.Ex12MsServerApplication",
+      "projectName": "com.klu-ex12_MS-Server",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-Ex12MsClient1Application<EX12-MS-Client-2>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.klu.Ex12MsClient1Application",
+      "projectName": "EX12-MS-Client-2",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}

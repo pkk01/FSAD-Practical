@@ -26,12 +26,12 @@ public class ProdService {
 		productRepository.save(product);
 		return "product updated successfully";
 	}
-	
+
 	public String deleteData (int id) {
 		productRepository.delete(productRepository.findById(id).get());
-		return "deleted Successfully";	
+		return "deleted Successfully";
 	}
-	
+
 	public List<Product> retrieveData() {
 		return productRepository.findAll();
 	}
